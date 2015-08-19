@@ -41,7 +41,7 @@ ol, ul {
  * Start of Custom Styles
  */
 body {
-    background-color: LightGray;
+    background-color: #666;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -107,15 +107,17 @@ body {
     background-image: url("../images/DSC_0429.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 50.1rem;
     overflow: auto;
+    opacity: 0.7;
 }
 
-.background .content {
+.background .content h2 {
     text-align: center;
     font-size: 2.25rem;
     line-height: 30rem;
     color: #fff;
+    opacity: 1;
     letter-spacing: 0.75px;
 }
 
@@ -123,28 +125,27 @@ body {
 
 /* About Me styles */
 
-.about .about-heading h2 {
+.about {
+    height: 40rem;
+}
+
+.about h2 {
     text-align: center;
     color: #fff;
-    margin: 1rem 0;
+    margin: 4rem 0;
     letter-spacing: 1px;
     font-size: 2.25rem;
     font-weight: 400;
 }
 
 .about .my-content {
-    width: 70%;
+    width: 80%;
     margin: 8rem auto;
-    
 }
 
-/*.about .my-image img {
-    margin: 1rem 5rem 1.5rem;
+.about .my-content .my-image {
+    float: left;
 }
-
-.about .my-image {
-  margin-top: 5rem;
-}*/
 
 .about img.circle {
     width: 40%;
@@ -154,18 +155,72 @@ body {
 }
 
 .about .my-data {
-    width: 40%;
-    text-align: center;
+    width: 50%;
     float: right;
     letter-spacing: 1px;
-    margin-top: -10rem;
-    /*margin-right: 2rem;*/
+    line-height: 1.5rem;
+    margin-top: -15rem;
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.about .my-data a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
 }
 
 
 
+/* Project styles */
+
+.projects {
+    height: 35rem;
+}
+
+.projects h2 {
+    text-align: center;
+    color: #fff;
+    margin: 4rem 0;
+    letter-spacing: 1px;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.projects .karma {
+    text-align: center;
+}
+
+.projects p {
+    color: #fff;
+    font-size: 1.25rem;
+    margin: 1rem;
+}
 
 
 
+/* Footer styles */
 
+.connect {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.connect h3 {
+    padding: 1.5rem 0;
+    font-size: 1.25rem;
+}
+
+.connect .social li {
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+.connect .fa-github {
+    color: red;
+}
 
