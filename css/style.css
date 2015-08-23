@@ -90,7 +90,7 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 .top-navigation .links {
     float: right;
     padding-top: 1.6rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-right: 1rem;
     letter-spacing: 0.5px;
     opacity: 1;
@@ -113,6 +113,7 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 .background {
     background-image: url("../images/DSC_0429.jpg");
     background-repeat: no-repeat;
+    /*background-position: center bottom;*/
     background-size: cover;
     height: 50.1rem;
     overflow: auto;
@@ -159,6 +160,13 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
     height: auto;
     transform: rotate(90deg);
     border-radius: 50%;
+}
+
+.about img:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 35px 17px rgba(119,170,212,1);
+    -moz-box-shadow: 0px 0px 35px 17px rgba(119,170,212,1);
+    box-shadow: 0px 0px 35px 17px rgba(119,170,212,1);
 }
 
 .about .my-data {
@@ -235,5 +243,140 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 
 .connect .fa-linkedin-square {
     color: #0077b5;
+}
+
+
+
+/* Responsive */
+
+/* ----------- iPad Landscape ----------- */
+
+@media only screen and (max-width: 1024px) {
+
+    .top-navigation h1 {
+        font-size: 2.1rem;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+        padding-top: 1.25rem;
+    }
+    
+    .top-navigation .links {
+        padding-top: 1.6rem;
+        font-size: 1.25rem;
+        letter-spacing: 0.5px;
+    }
+
+    .top-navigation .links li {
+        margin-left: 0.5rem;
+    }
+
+    .top-navigation .links li a {
+        color: red;
+    }
+
+    .background {
+        background-position: center bottom;
+    }
+
+    .background .content h2 {
+        font-size: 2.25rem;
+        font-weight: 500; 
+        line-height: 35rem;
+        letter-spacing: 0.75px;
+    }
+
+    .about h2 {
+        margin: 4rem 0;
+        letter-spacing: 1px;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+}
+
+/* ----------- iPad Portrait ----------- */
+
+@media only screen and (max-width: 767px){
+
+    .top-navigation h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+        padding-top: 1.25rem;
+    }
+
+    .top-navigation .links {
+        padding-top: 1.6rem;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+    }
+
+    .top-navigation .links li {
+        margin-left: 0.5rem;
+    }
+
+    .top-navigation .links li a {
+        color: green;
+    }
+
+    .background .content h2 {
+        font-size: 1.8rem;
+        font-weight: 500; 
+        line-height: 35rem;
+        letter-spacing: 0.75px;
+    }
+
+    .about h2 {
+        margin: 4rem 0;
+        letter-spacing: 1px;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+@media only screen and (max-width: 480px) {
+
+    .top-navigation .content {
+        height: 10rem;
+    }
+
+    .top-navigation h1 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+        padding-top: 1.25rem;
+    }
+
+    .top-navigation .links {
+        padding-top: 1.6rem;
+        font-size: 0.25rem;
+        letter-spacing: 0.2px;
+    }
+
+    .top-navigation .links li {
+        margin-left: 0.75rem;
+        width: 100%;
+        display: block;
+    }
+
+    .top-navigation .links li a {
+        color: purple;
+    }
+
+    .background .content h2 {
+        font-size: 1.5rem;
+        font-weight: 500; 
+        line-height: 35rem;
+        letter-spacing: 0.75px;
+    }
+
+    .about h2 {
+        margin: 4rem 0;
+        letter-spacing: 1px;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
 }
 
