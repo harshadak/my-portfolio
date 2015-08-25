@@ -67,9 +67,6 @@ body {
     width: 100%;
     z-index: 999;
     border: 1px solid #7BA7E1;
-   /*-webkit-box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);
--moz-box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);
-box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 }
 
 .top-navigation .content {
@@ -112,7 +109,7 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 .background {
     background-image: url("../images/DSC_0429.jpg");
     background-repeat: no-repeat;
-    /*background-position: center bottom;*/
+    background-position: center bottom;
     background-size: cover;
     height: 50.1rem;
     overflow: auto;
@@ -123,7 +120,7 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
     text-align: center;
     font-size: 2.5rem;
     font-weight: 500; 
-    line-height: 35rem;
+    padding-top: 17rem;
     color: #fff;
     letter-spacing: 0.75px;
 }
@@ -139,7 +136,7 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 .about h2 {
     text-align: center;
     color: #fff;
-    margin: 4rem 0;
+    margin: 3rem 0;
     letter-spacing: 1px;
     font-size: 2.25rem;
     font-weight: 400;
@@ -157,7 +154,7 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 }
 
 .about img.circle {
-    width: 40%;
+    width: 70%;
     height: auto;
     transform: rotate(90deg);
     border-radius: 50%;
@@ -176,10 +173,10 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
     float: right;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    margin-top: -15rem;
     font-size: 1.25rem;
     color: #fff;
     font-weight: 400;
+    padding-top: 3rem;
 }
 
 .about .my-data a {
@@ -249,6 +246,8 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 
 
 
+
+
 /* Responsive */
 
 /* ----------- iPad Landscape ----------- */
@@ -259,14 +258,11 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
     .top-navigation h1 {
         font-size: 2.1rem;
         letter-spacing: 0.5px;
-        font-weight: 500;
         padding-top: 1.25rem;
     }
     
     .top-navigation .links {
-        padding-top: 1.6rem;
         font-size: 1.25rem;
-        letter-spacing: 0.5px;
     }
 
     .top-navigation .links li {
@@ -277,15 +273,8 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
         color: red;
     }
 
-    .background {
-        background-position: center bottom;
-    }
-
     .background .content h2 {
-        font-size: 2.25rem;
-        font-weight: 500; 
-        line-height: 35rem;
-        letter-spacing: 0.75px;
+        font-size: 2.25rem; 
     }
 
     .about h2 {
@@ -293,6 +282,38 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
         letter-spacing: 1px;
         font-size: 1.8rem;
         font-weight: 400;
+    }
+
+   .about img.circle {
+        width: 90%;
+        height: auto;
+    }
+
+    .about .my-data {
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+        font-size: 1.05rem;
+        color: #fff;
+        font-weight: 400;
+        padding-top: 2rem;
+    }
+
+    .projects h2 {
+        margin: 3rem 0;
+        letter-spacing: 1px;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .connect h3 {
+        padding: 1.5rem 0;
+        font-size: 1.2rem;
+        letter-spacing: 0.3px;
+    }
+
+    .connect .social li {
+        font-size: 1.8rem;
+        margin: 0.5rem;
     }
 
 }
@@ -300,22 +321,25 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 /* ----------- iPad Portrait ----------- */
 
 @media only screen and (max-width: 767px){
+    
+    .content {
+      margin: 0 auto;
+      padding: 0 0.3rem;
+    }
 
     .top-navigation h1 {
-        font-size: 1.8rem;
-        letter-spacing: 0.5px;
-        font-weight: 500;
+        font-size: 1.7rem;
+        letter-spacing: 0.4px;
         padding-top: 1.25rem;
     }
 
     .top-navigation .links {
-        padding-top: 1.6rem;
         font-size: 1.1rem;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.3px;
     }
 
     .top-navigation .links li {
-        margin-left: 0.5rem;
+        margin-left: 0.4rem;
     }
 
     .top-navigation .links li a {
@@ -323,17 +347,53 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
     }
 
     .background .content h2 {
-        font-size: 1.8rem;
-        font-weight: 500; 
-        line-height: 35rem;
-        letter-spacing: 0.75px;
+        font-size: 1.8rem; 
+        letter-spacing: 1px;
+    }
+
+    .about .my-content {
+        width: 100%;
+        margin: 8rem auto;
     }
 
     .about h2 {
         margin: 4rem 0;
         letter-spacing: 1px;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 400;
+    }
+
+    .about img.circle {
+        margin-top: 2rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .about .my-data {
+        letter-spacing: 1px;
+        line-height: 1.3rem;
+        font-size: 1rem;
+        color: #fff;
+        font-weight: 400;
+        padding-top: 4.5rem;
+    }
+
+    .projects h2 {
+        margin: 3rem 0;
+        letter-spacing: 1px;
+        font-size: 1.9rem;
+        font-weight: 400;
+    }
+
+    .connect h3 {
+        padding: 1.5rem 0;
+        font-size: 1.2rem;
+        letter-spacing: 0.3px;
+    }
+
+    .connect .social li {
+        font-size: 1.6rem;
+        margin: 0.5rem;
     }
 }
 
@@ -343,30 +403,28 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 
     .content {
       width: 100%;
-      padding-left: 1rem;
-      padding-right: 1rem;
+      margin: 0 auto;
+      padding: 0 0.3rem;
     }
 
     .top-navigation .content {
-        height: 10rem;
+        height: 8rem;
     }
 
     .top-navigation h1 {
         font-size: 1.5rem;
-        letter-spacing: 1px;
-        font-weight: 500;
-        padding-top: 1.25rem;
+        letter-spacing: 0.4px;
+        padding-top: 3.25rem;
     }
 
     .top-navigation .links {
-        padding-top: 1.6rem;
-        font-size: 0.25rem;
+        font-size: 1rem;
         letter-spacing: 0.2px;
     }
 
     .top-navigation .links li {
-        margin-left: 0.75rem;
-        width: 100%;
+        padding-bottom: 0.75rem;
+        font-weight: 500;
         display: block;
     }
 
@@ -376,9 +434,7 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
 
     .background .content h2 {
         font-size: 1.5rem;
-        font-weight: 500; 
-        line-height: 35rem;
-        letter-spacing: 0.75px;
+        letter-spacing: 1px;
     }
 
     .about h2 {
@@ -391,6 +447,105 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
     .about .my-content .my-image {
         width: 100%;
         float: none;
+        text-align: center;
+    }
+
+    .about .my-data {
+        width: 100%;
+        float: none;
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .about img.circle {
+        width: 80%;
+        height: auto;
+        transform: rotate(90deg);
+        border-radius: 50%;
+    }
+
+    .projects h2 {
+        margin: 3rem 0;
+        padding-top: 5rem;
+        letter-spacing: 1px;
+        font-size: 1,75rem;
+        font-weight: 400;
+    }
+
+    .projects p {
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        margin: 1rem;
+    }
+
+    .connect h3 {
+        padding: 1.5rem 0;
+        font-size: 1.1rem;
+        letter-spacing: 0.3px;
+    }
+
+    .connect .social li {
+        font-size: 1.6rem;
+        margin: 0.5rem;
+    }
+}
+
+/* ----------- iPhone portrait ----------- */
+
+@media only screen and (max-width: 320px) {
+
+    .content {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 0.3rem;
+    }
+
+    .top-navigation .content {
+        height: 8rem;
+    }
+
+    .top-navigation h1 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        padding-top: 3.25rem;
+    }
+
+    .top-navigation .links {
+        font-size: 0.9rem;
+        letter-spacing: 0.2px;
+    }
+
+    .top-navigation .links li {
+        padding-bottom: 0.75rem;
+        font-weight: 500; 
+        display: block;
+    }
+
+    .top-navigation .links li a {
+        color: black;
+    }
+
+    .background .content h2 {
+        font-size: 1.5rem; 
+        line-height: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .about h2 {
+        margin: 4rem 0;
+        letter-spacing: 1px;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    .about .my-content .my-image {
+        float: none;
+        width: 100%;
     }
 
     .about .my-data {
@@ -399,7 +554,7 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
         letter-spacing: 1px;
         line-height: 1.5rem;
         margin-top: 0;
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: #fff;
         font-weight: 400;
     }
@@ -410,80 +565,35 @@ box-shadow: 0px 3px 30px 0px rgba(96,188,204,1);*/
         transform: rotate(90deg);
         border-radius: 50%;
     }
-}
 
-/* ----------- iPhone portrait ----------- */
-
-@media only screen and (max-width: 320px) {
-
-    .content {
-      width: 100%;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-
-    .top-navigation .content {
-        height: 10rem;
-    }
-
-    .top-navigation h1 {
-        font-size: 1.5rem;
+    .projects h2 {
+        margin: 3rem 0;
+        padding-top: 5rem;
         letter-spacing: 1px;
-        font-weight: 500;
-        padding-top: 1.25rem;
-    }
-
-    .top-navigation .links {
-        padding-top: 1.6rem;
-        font-size: 0.25rem;
-        letter-spacing: 0.2px;
-    }
-
-    .top-navigation .links li {
-        margin-left: 0.75rem;
-        width: 100%;
-        display: block;
-    }
-
-    .top-navigation .links li a {
-        color: black;
-    }
-
-    .background .content h2 {
-        font-size: 1.5rem;
-        font-weight: 500; 
-        line-height: 35rem;
-        letter-spacing: 0.75px;
-    }
-
-    .about h2 {
-        margin: 4rem 0;
-        letter-spacing: 1px;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 400;
     }
 
-    .about .my-content .my-image {
-        float: none;
-        width: 100%;
+    .projects p {
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+        margin: 1rem;
     }
 
-.about .my-data {
-    width: 100%;
-    float: none;
-    letter-spacing: 1px;
-    line-height: 1.5rem;
-    margin-top: 0;
-    font-size: 1.25rem;
-    color: #fff;
-    font-weight: 400;
-}
+    .projects .karma img {
+        width: 250px;
+        height: 250px;
+    }
 
-.about img.circle {
-    width: 100%;
-    height: auto;
-    transform: rotate(90deg);
-    border-radius: 50%;
-}
+    .connect h3 {
+        padding: 1.5rem 0;
+        font-size: 1rem;
+        letter-spacing: 0.3px;
+    }
+
+    .connect .social li {
+        font-size: 1.6rem;
+        margin: 0.5rem;
+    }
 }
 
