@@ -136,7 +136,7 @@ body {
 .about h2 {
     text-align: center;
     color: #fff;
-    margin: 3rem 0;
+    margin: 2rem 0;
     letter-spacing: 1px;
     font-size: 2.25rem;
     font-weight: 400;
@@ -144,19 +144,17 @@ body {
 
 .about .my-content {
     width: 80%;
-    margin: 8rem auto;
+    margin: 6rem auto;
 }
 
 .about .my-content .my-image {
-    float: left;
     display: inline-block;
     width: 50%;
 }
 
 .about img.circle {
-    width: 70%;
+    width: 60%;
     height: auto;
-    transform: rotate(90deg);
     border-radius: 50%;
 }
 
@@ -167,16 +165,16 @@ body {
     box-shadow: 0px 0px 35px 17px rgba(119,170,212,1);
 }
 
-.about .my-data {
+.about .my-content .my-data {
     width: 50%;
-    display: inline-block;
     float: right;
+    /*display: inline-block;*/
     letter-spacing: 1px;
     line-height: 1.5rem;
     font-size: 1.25rem;
     color: #fff;
     font-weight: 400;
-    padding-top: 3rem;
+    padding-top: 7rem;
 }
 
 .about .my-data a {
@@ -278,24 +276,22 @@ body {
     }
 
     .about h2 {
-        margin: 4rem 0;
-        letter-spacing: 1px;
         font-size: 1.8rem;
         font-weight: 400;
     }
 
    .about img.circle {
-        width: 90%;
+        width: 80%;
         height: auto;
     }
 
-    .about .my-data {
+    .about .my-content .my-data {
         letter-spacing: 1px;
         line-height: 1.5rem;
         font-size: 1.05rem;
         color: #fff;
         font-weight: 400;
-        padding-top: 2rem;
+        padding-top: 6rem;
     }
 
     .projects h2 {
@@ -352,12 +348,12 @@ body {
     }
 
     .about .my-content {
-        width: 100%;
-        margin: 8rem auto;
+        width: 90%;
+        margin: 5rem auto;
     }
 
     .about h2 {
-        margin: 4rem 0;
+        margin: 2rem 0;
         letter-spacing: 1px;
         font-size: 1.6rem;
         font-weight: 400;
@@ -365,17 +361,17 @@ body {
 
     .about img.circle {
         margin-top: 2rem;
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
-    .about .my-data {
+    .about .my-content .my-data {
         letter-spacing: 1px;
         line-height: 1.3rem;
         font-size: 1rem;
         color: #fff;
         font-weight: 400;
-        padding-top: 4.5rem;
+        padding-top: 6rem;
     }
 
     .projects h2 {
@@ -438,19 +434,22 @@ body {
     }
 
     .about h2 {
-        margin: 4rem 0;
+        margin: 2rem 0;
         letter-spacing: 1px;
         font-size: 1.8rem;
         font-weight: 400;
     }
 
+    .about .my-content {
+        margin: 2rem auto;
+    }
+
     .about .my-content .my-image {
         width: 100%;
-        float: none;
         text-align: center;
     }
 
-    .about .my-data {
+    .about .my-content .my-data {
         width: 100%;
         float: none;
         letter-spacing: 1px;
@@ -459,18 +458,17 @@ body {
         color: #fff;
         font-weight: 400;
         text-align: center;
-        padding-bottom: 2rem;
+        margin-top: -1rem;
     }
 
     .about img.circle {
         width: 80%;
         height: auto;
-        transform: rotate(90deg);
         border-radius: 50%;
     }
 
     .projects h2 {
-        margin: 3rem 0;
+        margin-top: 10rem;
         padding-top: 5rem;
         letter-spacing: 1px;
         font-size: 1,75rem;
@@ -537,32 +535,30 @@ body {
     }
 
     .about h2 {
-        margin: 4rem 0;
+        margin: 2rem 0;
         letter-spacing: 1px;
         font-size: 1.6rem;
         font-weight: 400;
     }
 
     .about .my-content .my-image {
-        float: none;
         width: 100%;
     }
 
-    .about .my-data {
+    .about .my-content .my-data {
         width: 100%;
         float: none;
         letter-spacing: 1px;
         line-height: 1.5rem;
-        margin-top: 0;
+        margin-top: -2rem;
         font-size: 1rem;
         color: #fff;
         font-weight: 400;
     }
 
     .about img.circle {
-        width: 100%;
+        width: 90%;
         height: auto;
-        transform: rotate(90deg);
         border-radius: 50%;
     }
 
