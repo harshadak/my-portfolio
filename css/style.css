@@ -188,7 +188,8 @@ body {
 /* Project styles */
 
 .projects {
-    height: 35rem;
+    /*height: 35rem;*/
+    padding-bottom: 5rem;
 }
 
 .projects h2 {
@@ -200,8 +201,10 @@ body {
     font-weight: 400;
 }
 
-.projects .karma {
+.projects .work{
     text-align: center;
+    margin: 0 1.5rem;
+    display: inline-block;
 }
 
 .projects p {
@@ -576,7 +579,7 @@ body {
         margin: 1rem;
     }
 
-    .projects .karma img {
+    .projects .work img {
         width: 250px;
         height: 250px;
     }
