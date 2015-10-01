@@ -270,10 +270,6 @@ body {
         margin-left: 0.5rem;
     }
 
-    .top-navigation .links li a {
-        color: red;
-    }
-
     .background .content h2 {
         font-size: 2.25rem; 
     }
@@ -339,10 +335,6 @@ body {
 
     .top-navigation .links li {
         margin-left: 0.4rem;
-    }
-
-    .top-navigation .links li a {
-        color: green;
     }
 
     .background .content h2 {
@@ -425,10 +417,6 @@ body {
         padding-bottom: 0.75rem;
         font-weight: 500;
         display: block;
-    }
-
-    .top-navigation .links li a {
-        color: purple;
     }
 
     .background .content h2 {
