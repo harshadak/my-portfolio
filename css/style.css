@@ -55,7 +55,7 @@ body {
 .content {
   margin: 0 auto;
   padding: 0 0.938rem;
-  /*-webkit-font-smoothing: antialiased;*/
+  text-align: center;
 }
 
 
@@ -107,7 +107,7 @@ body {
 /* Background image styles */
 
 .background {
-    background-image: url("../images/DSC_0429.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -203,8 +203,13 @@ body {
 
 .projects .work{
     text-align: center;
-    margin: 0 1.5rem;
+    margin: 2rem;
     display: inline-block;
+}
+.projects .content .work img {
+    width: 99%;
+    max-width: 500px;
+    max-height: 300px;
 }
 
 .projects p {
