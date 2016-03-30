@@ -39,8 +39,6 @@
     };
 }(jQuery));
 
-
-
 jQuery(document).ready(function () {
     "use strict";
     new WOW().init();
@@ -52,13 +50,7 @@ jQuery(document).ready(function () {
 
 });
 
-
-
-
 $(document).ready(function () {
-
-
-
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 50) {
@@ -76,11 +68,8 @@ $(document).ready(function () {
         pagination: false,
         items: 5,
         autoplay: true,
-
     })
-
 });
-
 
 
 // fancybox
