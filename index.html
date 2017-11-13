@@ -20,8 +20,11 @@
         ================================================== -->
     <!-- Twitter Bootstrs CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Ionicons Fonts Css -->
+    <!-- Ionicon CSS   -->
     <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <!-- Font Awesome CSS  -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- animate css -->
     <link rel="stylesheet" href="css/animate.css">
     <!-- Hero area slider css-->
@@ -51,6 +54,8 @@
     <!-- slider js -->
     <script src="js/slider.js"></script>
     <script src="js/jquery.fancybox.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/b8a306d6dd.js"></script>
     <!-- template main js -->
     <script src="js/main.js"></script>
 </head>
@@ -116,9 +121,9 @@
                             <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
                                 <span>HI, MY NAME IS HARSHADA & I AM A</span><br>
                                 <span class="cd-words-wrapper">
-                                    <b class="is-visible">JAVASCRIPT</b>
-                                    <b>ANGULAR</b>
-                                    <b>HTML5 & CSS3</b>
+                                    <b class="is-visible">ANGULAR</b>
+                                    <b>PYTHON</b>
+                                    <b>IOS</b>
                                 </span> DEVELOPER
                                 </h1>
                         </section>
@@ -146,13 +151,17 @@
                                 ABOUT ME
                                 </h2>
                         <p>
-                            Hello! I am a Frontend Web Developer originally from Bangalore, India, but currently residing in one of the World's most awesome places, Silicon Valley! I have a Bachelors degree in Information Science Engineering from VTU, Belgaum. I am very passionate about learning new technologies and love to build cool and awesome websites! I take pride in the work I do and believe in delivering quality.
+                            Hello! Information Science Engineer stepping into the realm of Web with some cool projects in her repertoire. I am very passionate about learning new technologies and this lead me to joining Thinkful to learn Frontend Web Development! Later, I joined Coding Dojo to broaden my knowledge about Full Stack Web Development. I take pride in the work I do and believe in delivering quality.
+                            <br>
+                            <br> I have worked on quite some projects so far, some of which are focused on just frontend and some are full-stack in different technology stacks. I also possess the experience of working independently as well as in a team.
+                            <br>
+                            <br> Get in touch to know more about me!
                         </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                        <img src="images/about/about.jpg" alt="">
+                        <img src="images/about/me.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -550,6 +559,9 @@
                                             <h2 class="subtitle wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">Contact</h2>
 
                                             <div class="contact-form">
+
+                                                <!--    Contact Form starts   -->
+                                                <!--
                                                 <form id="contact-form" method="post" action="sendmail.php" role="form">
 
                                                     <div class="form-group wow fadeInDown" data-wow-duration="250ms">
@@ -573,64 +585,10 @@
                                                         <input type="submit" id="contact-submit" class="btn btn-default btn-send" value="Send Message">
                                                     </div>
                                                 </form>
+                                                -->
+
+                                                <!--    Contact Form ends   -->
                                             </div>
-
-                                            <!-- WUFOO FORM
-                                            <div id="wufoo-zxyrre518nm7ka">
-                                                Fill out my <a href="https://harshada10.wufoo.com/forms/zxyrre518nm7ka">online form</a>.
-                                            </div>
-
-                                            <script type="text/javascript">
-                                                var zxyrre518nm7ka;
-                                                (function(d, t) {
-                                                    var s = d.createElement(t),
-                                                        options = {
-                                                            'userName': 'harshada10',
-                                                            'formHash': 'zxyrre518nm7ka',
-                                                            'autoResize': true,
-                                                            'height': '497',
-                                                            'async': true,
-                                                            'host': 'wufoo.com',
-                                                            'header': 'show',
-                                                            'ssl': true
-                                                        };
-                                                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                                                    s.onload = s.onreadystatechange = function() {
-                                                        var rs = this.readyState;
-                                                        if (rs)
-                                                            if (rs != 'complete')
-                                                                if (rs != 'loaded') return;
-                                                        try {
-                                                            zxyrre518nm7ka = new WufooForm();
-                                                            zxyrre518nm7ka.initialize(options);
-                                                            zxyrre518nm7ka.display();
-                                                        } catch (e) {}
-                                                    };
-                                                    var scr = d.getElementsByTagName(t)[0],
-                                                        par = scr.parentNode;
-                                                    par.insertBefore(s, scr);
-                                                })(document, 'script');
-
-                                            </script>
-                                            -->
-
-                                            <!-- www.123contactform.com script begins here
-
-                                            <script type="text/javascript">
-                                                var servicedomain = "www.123contactform.com";
-                                                var frmRef = '';
-                                                try {
-                                                    frmRef = window.top.location.href;
-                                                } catch (err) {};
-                                                var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
-                                                document.write(unescape("%3Cscript src='" + cfJsHost + servicedomain + "/includes/easyXDM.min.js' type='text/javascript'%3E%3C/script%3E"));
-                                                frmRef = encodeURIComponent(frmRef).replace('%26', '[%ANDCHAR%]');
-                                                document.write(unescape("%3Cscript src='" + cfJsHost + servicedomain + "/jsform-1950856.js?ref=" + frmRef + "' type='text/javascript'%3E%3C/script%3E"));
-
-                                            </script>
-
-                                            www.123contactform.com script ends here -->
-
                                         </div>
                                     </div>
                                 </div>
@@ -650,24 +608,29 @@
     <footer id="footer">
         <div class="container">
             <div class="col-md-8">
-                <p class="copyright">Copyright: <span>2015</span> - Harshada Kurahatti</p>
+                <p class="copyright">Copyright: <span>2017</span> - Harshada Kurahatti</p>
             </div>
             <div class="col-md-4">
                 <!-- Social Media -->
                 <ul class="social">
                     <li>
                         <a href="mailto:harshada.kurahatti@gmail.com?Subject=Hello" target="_top">
-                            <i class="ion-ios-email"></i>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/pub/harshada-kurahatti/ba/500/a0b" target="_blank">
-                            <i class="ion-social-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/harshada-kurahatti/" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/harshadak?tab=repositories" target="_blank">
-                            <i class="ion-social-github"></i>
+                        <a href="https://angel.co/harshada-kurahatti" target="_blank">
+                            <i class="fa fa-angellist" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/harshadak" target="_blank">
+                            <i class="fa fa-github-alt" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
