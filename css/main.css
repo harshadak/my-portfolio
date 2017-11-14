@@ -50,7 +50,7 @@ a:hover {
     padding-bottom: 20px;
 }
 .subtitle {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 600;
     margin-bottom: 18px;
     text-transform: uppercase;
@@ -513,7 +513,7 @@ figure figcaption p {
     color: #555;
 }
 #footer .copyright {
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 0;
     margin-top: 10px;
 }
@@ -529,7 +529,7 @@ figure figcaption p {
     margin-right: 15px;
 }
 #footer .social li a {
-    font-size: 22px;
+    font-size: 28px;
     color: #02bdd5;
 }
 .cd-headline.slide .cd-words-wrapper {
